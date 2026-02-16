@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Luxury Beachwear</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/style/moda.css">
+</head>
+
+<body>
+
+    <header>
+    <div class="header-inner">
+        <div class="logo">LUXURY</div>
+            <nav>
+                <a onclick="showSection('home')">Home</a>
+                <a onclick="showSection('home')">New In</a>
+                <a onclick="showSection('home')">Beachwear</a>
+            </nav>
+        <div class="cart-icon" onclick="toggleCart()">
+        👜 <span class="cart-count" id="cartCount">0</span>
+        </div>
+    </div>
+    </header>
+
+    <main>
+    <!-- HOME -->
+    <section id="home" class="active">
+        <div class="hero">
+            <div class="hero-content">
+                <h1>COLEÇÃO VERÃO</h1>
+                <button onclick="scrollToProducts()">COMPRAR AGORA</button>
+            </div>
+        </div>
+        <div class="category-filter">
+            <button onclick="filterProducts(event, 'all')" class="active">NEW IN</button>
+            <button onclick="filterProducts(event, 'vestidos')">VESTIDOS</button>
+            <button onclick="filterProducts(event, 'conjuntos')">CONJUNTOS</button>
+            <button onclick="filterProducts(event, 'beachwear')">BEACHWEAR</button>
+        </div>
+        <div class="products" id="productGrid"></div>
+    </section>
+
+
+    <!-- PRODUCT DETAIL -->
+    <section id="detail">
+        <div class="product-detail" id="productDetail"></div>
+    </section>
+    </main>
+
+    <!-- CART -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <button class="cart-back" onclick="goHome()">
+        ← Voltar
+        </button>
+        <h2>Sacola</h2>
+        <div id="cartItems"></div>
+        <p><strong>Subtotal:</strong> R$ <span id="cartTotal">0</span></p>
+        <button class="checkout-btn">Checkout</button>
+    </div>
+
+<footer>
+    © 2026 Luxury Beachwear — Todos os direitos reservados
+</footer>
+
+<script src="../assets/js/moda.js"></script>
+
+</body>
+</html>

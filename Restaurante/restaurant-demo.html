@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>D'ALBA TRATTORIA | Cucina Italiana</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/style/restaurante.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>D'ALBA TRATTORIA</h1>
+        <p>Cucina Italiana</p>
+    </header>
+
+    <nav>
+        <button class="tab active" data-tab="pratos">Pratos Principais</button>
+        <button class="tab" data-tab="vinhos">Vinhos</button>
+        <button class="tab" data-tab="doces">Doces</button>
+    </nav>
+
+    <main>
+
+    <!-- PRATOS -->
+    <section id="pratos" class="menu-section active">
+        <div class="grid">
+            <div class="item">
+                <img src="../assets/img/restaurante/gnocchi.png" alt="Pasta">
+                <h3>Gnocchi al Ragù</h3>
+                <p>Massa fresca com molho de carne cozido lentamente.</p>
+                <div class="price">R$ 58,00</div>
+            </div>
+            <div class="item">
+                <img src="../assets/img/restaurante/burrata.png" alt="Burrata">
+                <h3>Burrata </h3>
+                <p>Acompanha tomates confitados</p>
+                <div class="price">R$ 60,00</div>
+            </div>
+            <div class="item">
+                <img src="../assets/img/restaurante/bisteca.png" alt="Bisteca">
+                <h3>Bisteca</h3>
+                <p>Acompanha batatas rústicas</p>
+                <div class="price">R$ 74,00</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VINHOS -->
+    <section id="vinhos" class="menu-section">
+        <div class="grid">
+            <div class="item">
+                <img src="../assets/img/restaurante/vinho.png" alt="Vinho">
+                <h3>Chianti Classico</h3>
+                <p>Vinho tinto italiano encorpado.</p>
+                <div class="price">R$ 120,00</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DOCES -->
+    <section id="doces" class="menu-section">
+        <div class="grid">
+            <div class="item">
+                <img src="../assets/img/restaurante/tiramissu.png" alt="Tiramisu">
+                <h3>Tiramisù</h3>
+                <p>Clássico italiano com café e mascarpone.</p>
+                <div class="price">R$ 28,00</div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <button class="reserve-btn">Reservar Mesa</button>
+
+    <!-- MODAL -->
+    <div class="modal-overlay">
+        <div class="modal">
+            <span class="close">&times;</span>
+            <h2>Reserva</h2>
+            <input type="text" placeholder="Nome" required>
+            <input type="date" required>
+            <input type="time" required>
+            <input type="number" placeholder="Nº de pessoas" required>
+            <button id="submit">Confirmar Reserva</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>📍 Rua das Oliveiras, 123 | ⏰ Ter–Dom 18h–23h</p>
+        <p>Instagram • Facebook • WhatsApp</p>
+    </footer>
+
+<script src="../assets/js/restaurante.js"> </script>
+</body>
+</html>

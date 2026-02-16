@@ -1,0 +1,309 @@
+/* =====================================================
+RESET & BASE
+====================================================== */
+*, *::before, *::after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+font-family: 'Open Sans', sans-serif;
+color: #333;
+background: #fff;
+line-height: 1.6;
+}
+
+img {
+max-width: 100%;
+display: block;
+border-radius: 16px;
+}
+
+a { text-decoration: none; color: inherit; }
+
+/* =====================================================
+DESIGN SYSTEM – VARIÁVEIS
+====================================================== */
+:root {
+--primary: #9DC183;       /* Verde Sálvia */
+--secondary: #f4f6f5;     /* Cinza claro */
+--text-dark: #2e2e2e;
+--text-light: #ffffff;
+--border-radius: 16px;
+--shadow-soft: 0 10px 25px rgba(0,0,0,0.08);
+--container: 1200px;
+}
+
+.container {
+max-width: var(--container);
+margin: auto;
+padding: 0 1.5rem;
+}
+
+section {
+padding: 5rem 0;
+}
+
+h1, h2, h3 {
+font-family: 'Playfair Display', serif;
+color: var(--text-dark);
+}
+
+h2 {
+margin-bottom: 1.5rem;
+}
+
+/* =====================================================
+BOTÕES
+====================================================== */
+.btn {
+padding: 0.9rem 2rem;
+border-radius: 30px;
+font-weight: 600;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 0.5rem;
+transition: 0.3s ease;
+cursor: pointer;
+}
+
+.btn-primary {
+background: var(--primary);
+color: var(--text-light);
+}
+
+.btn-primary:hover {
+transform: translateY(-2px);
+box-shadow: var(--shadow-soft);
+}
+
+.btn-outline {
+border: 2px solid var(--primary);
+color: var(--primary);
+background: transparent;
+}
+
+/* =====================================================
+HEADER
+====================================================== */
+header {
+position: sticky;
+top: 0;
+background: #fff;
+z-index: 1000;
+box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 70px;
+}
+
+.logo {
+font-family: 'Playfair Display', serif;
+font-size: 1.4rem;
+font-weight: 600;
+}
+
+.menu {
+display: flex;
+gap: 2rem;
+align-items: center;
+}
+
+.menu a {
+font-weight: 600;
+font-size: 0.95rem;
+}
+
+.menu-toggle {
+display: none;
+font-size: 1.6rem;
+cursor: pointer;
+}
+
+/* =====================================================
+HERO
+====================================================== */
+.hero {
+background: var(--secondary);
+}
+
+.hero-grid {
+display: grid;
+grid-template-columns: 1.1fr 0.9fr;
+align-items: center;
+gap: 3rem;
+}
+
+.hero h1 {
+font-size: 2.6rem;
+margin-bottom: 1rem;
+}
+
+.hero p {
+margin-bottom: 2rem;
+max-width: 520px;
+}
+
+/* =====================================================
+SOBRE
+====================================================== */
+.sobre-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 3rem;
+align-items: center;
+}
+
+/* =====================================================
+SERVIÇOS
+====================================================== */
+.servicos-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 2rem;
+}
+
+.card {
+background: #fff;
+padding: 2rem;
+border-radius: var(--border-radius);
+box-shadow: var(--shadow-soft);
+transition: 0.3s;
+}
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+.card svg {
+width: 40px;
+height: 40px;
+margin-bottom: 1rem;
+stroke: var(--primary);
+}
+
+/* =====================================================
+DIFERENCIAIS
+====================================================== */
+.diferenciais {
+display: flex;
+gap: 2rem;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.diferencial {
+flex: 1;
+min-width: 220px;
+display: flex;
+gap: 1rem;
+align-items: center;
+}
+
+/* =====================================================
+CONTATO
+====================================================== */
+.contato-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 3rem;
+}
+
+/* =====================================================
+FOOTER
+====================================================== */
+footer {
+background: #f1f1f1;
+text-align: center;
+padding: 2rem 1.5rem;
+font-size: 0.9rem;
+}
+
+/* =====================================================
+WHATSAPP FLOAT
+====================================================== */
+.whatsapp {
+position: fixed;
+bottom: 20px;
+right: 20px;
+background: #25d366;
+color: #fff;
+width: 55px;
+height: 55px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.8rem;
+box-shadow: var(--shadow-soft);
+z-index: 999;
+}
+
+/* =====================================================
+MODAL
+====================================================== */
+.modal {
+position: fixed;
+inset: 0;
+background: rgba(0,0,0,0.6);
+display: none;
+align-items: center;
+justify-content: center;
+}
+
+.modal-content {
+background: #fff;
+padding: 2.5rem;
+border-radius: var(--border-radius);
+max-width: 400px;
+width: 90%;
+text-align: center;
+}
+
+/* =====================================================
+RESPONSIVO
+====================================================== */
+@media (max-width: 900px) {
+.hero-grid,
+.sobre-grid,
+.contato-grid {
+    grid-template-columns: 1fr;
+}
+
+.menu {
+    position: fixed;
+    top: 70px;
+    right: -100%;
+    background: #fff;
+    height: calc(100vh - 70px);
+    width: 100%;
+    flex-direction: column;
+    padding: 2rem;
+    transition: 0.3s;
+}
+
+.menu.active { right: 0; }
+.menu-toggle { display: block; }
+}
+
+/* =====================================================
+SCROLL REVEAL
+====================================================== */
+.reveal {
+opacity: 0;
+transform: translateY(40px);
+transition: 0.8s ease;
+}
+
+.reveal.active {
+opacity: 1;
+transform: translateY(0);
+}

@@ -1,10 +1,9 @@
 # 💼 Portfólio de Serviços Digitais
 
 Este repositório contém meu portfólio profissional de desenvolvimento web, criado para apresentar serviços digitais por meio de projetos demonstrativos.
-
 As páginas presentes neste portfólio não representam produtos finais, mas exemplos práticos do meu trabalho, mostrando como estruturo, desenvolvo e entrego soluções web para diferentes tipos de negócio.
 
-🎯 Objetivo do Portfólio
+### 🎯 Objetivo do Portfólio
 - Demonstrar habilidades em desenvolvimento front-end
 - Apresentar layouts e soluções adaptáveis a diferentes nichos
 - Exibir boas práticas de organização de código
@@ -12,52 +11,46 @@ As páginas presentes neste portfólio não representam produtos finais, mas exe
 
 Este portfólio foi pensado para que clientes e recrutadores consigam visualizar como um projeto real pode ficar antes mesmo da contratação.
 
----
+### 🧩 O que você encontra neste portfólio
+→ Cada pasta representa um tipo de projeto / nicho, funcionando como uma demonstração funcional:
 
-🧩 O que você encontra neste portfólio
-Cada pasta representa um tipo de projeto / nicho, funcionando como uma demonstração funcional:
+####   Moda Feminina / E-commerce
+→ Simulação de loja virtual com listagem de produtos, filtros e carrinho
 
-### ➜  Moda Feminina / E-commerce
-Simulação de loja virtual com listagem de produtos, filtros e carrinho
+#### ➜  Restaurante
+→ Demonstração de site institucional com foco em cardápio e experiência do usuário
 
-### ➜  Restaurante
-Demonstração de site institucional com foco em cardápio e experiência do usuário
+#### ➜  Corporate
+→ Layout institucional voltado para empresas e serviços profissionais
 
-### ➜  Corporate
-Layout institucional voltado para empresas e serviços profissionais
-
-### ➜  Landing Page
-Página de conversão focada em apresentação de serviços ou produtos
-
----
+#### ➜  Landing Page
+→ Página de conversão focada em apresentação de serviços ou produtos
 
 Esses projetos servem como base visual e técnica para soluções personalizadas conforme a necessidade de cada cliente.
 
-🛠️ Tecnologias Utilizadas
-🔹 **HTML5**
+### 🛠️ Tecnologias Utilizadas
+#### **HTML5**
 - Estrutura semântica
 - Organização clara das páginas
 - Base para SEO e acessibilidade
 
-🔹 **CSS3**
+#### **CSS3**
 - Estilização moderna e responsiva
 - Organização modular dos estilos
 - Foco em design limpo e usabilidade
 
-🔹 **JavaScript (Vanilla JS)**
+#### **JavaScript (Vanilla JS)**
 - Manipulação do DOM
 - Renderização dinâmica de conteúdo
 - Interações com o usuário
 - Lógica de componentes (filtros, navegação, carrinho)
 
-A estrutura do projeto foi pensada para:
+#### A estrutura do projeto foi pensada para:
 - Facilitar manutenção
 - Permitir expansão
 - Reaproveitar código em projetos reais
-
 ---
-
-💼 Prestação de Serviços
+### 💼 Prestação de Serviços
 Este portfólio representa meu trabalho em:
 - Criação de sites institucionais
 - Desenvolvimento de landing pages

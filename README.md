@@ -12,7 +12,7 @@ As páginas presentes neste portfólio não representam produtos finais, mas exe
 Este portfólio foi pensado para que clientes e recrutadores consigam visualizar como um projeto real pode ficar antes mesmo da contratação.
 
 ### 🧩 O que você encontra neste portfólio
-→ Cada pasta representa um tipo de projeto / nicho, funcionando como uma demonstração funcional:
+Cada pasta representa um tipo de projeto / nicho, funcionando como uma demonstração funcional:
 
 ####  Moda Feminina / E-commerce
 → Simulação de loja virtual com listagem de produtos, filtros e carrinho

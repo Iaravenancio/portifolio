@@ -14,16 +14,16 @@ Este portfólio foi pensado para que clientes e recrutadores consigam visualizar
 ### 🧩 O que você encontra neste portfólio
 → Cada pasta representa um tipo de projeto / nicho, funcionando como uma demonstração funcional:
 
-####   Moda Feminina / E-commerce
+####  Moda Feminina / E-commerce
 → Simulação de loja virtual com listagem de produtos, filtros e carrinho
 
-#### ➜  Restaurante
+####  Restaurante
 → Demonstração de site institucional com foco em cardápio e experiência do usuário
 
-#### ➜  Corporate
+####  Corporate
 → Layout institucional voltado para empresas e serviços profissionais
 
-#### ➜  Landing Page
+####  Landing Page
 → Página de conversão focada em apresentação de serviços ou produtos
 
 Esses projetos servem como base visual e técnica para soluções personalizadas conforme a necessidade de cada cliente.
@@ -49,7 +49,7 @@ Esses projetos servem como base visual e técnica para soluções personalizadas
 - Facilitar manutenção
 - Permitir expansão
 - Reaproveitar código em projetos reais
----
+
 ### 💼 Prestação de Serviços
 Este portfólio representa meu trabalho em:
 - Criação de sites institucionais
@@ -64,16 +64,14 @@ Cada projeto pode ser adaptado em:
 - Funcionalidades
 - Escala e complexidade
 
-🚀 Próximos Passos
+### 🚀 Próximos Passos
 - Integração com backend
 - APIs e banco de dados
 - Painéis administrativos
 - Otimização de performance
 - SEO avançado
 - Deploy contínuo
-
----
-
+----
 ## 👩‍💻 Desenvolvido por
 Iara Venâncio
 Estudante de Análise e Desenvolvimento de Sistemas

@@ -1,12 +1,12 @@
 /* ===================== DATA ===================== */
 const produtos = [
-    {id:1, nome:"Maiô", preco:189, img:"/assets/img/moda/maio_listras.png", categoria: "beachwear"},
-    {id:2, nome:"Vestido Linen", preco:329, img:"/assets/img/moda/vestido_florido.png", categoria: "vestidos"},
-    {id:3, nome:"Vestido Listrado", preco:129, img:"/assets/img/moda/vestido_listras.png", categoria:"vestidos"},
-    {id:4, nome:"Conjunto Amarelo", preco:359, img:"/assets/img/moda/conjunto_amarelo.png", categoria: "conjuntos"},
-    {id:5, nome:"Macacão Branco Midi", preco:399, img:"/assets/img/moda/macacao_branco.png", categoria: "conjuntos"},
-    {id:6, nome:"Vestido Midi Folhas", preco:199, img:"/assets/img/moda/vestido_folhas_azul.png", categoria: "vestidos"},
-    {id:7, nome:"Saída Casual Natural", preco:279, img:"/assets/img/moda/saida_praia.png", categoria: "beachwear"}
+    {id:1, nome:"Maiô", preco:189, img:"assets/img/maio_listras.png", categoria: "beachwear"},
+    {id:2, nome:"Vestido Linen", preco:329, img:"assets/img/vestido_florido.png", categoria: "vestidos"},
+    {id:3, nome:"Vestido Listrado", preco:129, img:"assets/img/vestido_listras.png", categoria:"vestidos"},
+    {id:4, nome:"Conjunto Amarelo", preco:359, img:"assets/img/conjunto_amarelo.png", categoria: "conjuntos"},
+    {id:5, nome:"Macacão Branco Midi", preco:399, img:"assets/img/macacao_branco.png", categoria: "conjuntos"},
+    {id:6, nome:"Vestido Midi Folhas", preco:199, img:"assets/img/vestido_folhas_azul.png", categoria: "vestidos"},
+    {id:7, nome:"Saída Casual Natural", preco:279, img:"assets/img/saida_praia.png", categoria: "beachwear"}
 ];
 
 let cart = [];

@@ -101,7 +101,7 @@ display: block;
 /* ===================== HERO ===================== */
 .hero {
 height: 75vh;
-background: url("../img/moda/banner.png") center/cover no-repeat;
+background: url("../img/banner.png") center/cover no-repeat;
 display: flex;
 align-items: flex-end;
 justify-content: center;

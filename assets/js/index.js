@@ -4,7 +4,7 @@ category: 'Luxury E-commerce',
 title: 'Bella Moura Boutique',
 desc: 'Interface minimalista e luxuosa focada em despertar desejo de compra imediato.',
 features: ['Checkout em 1 Clique', 'Vitrine Inteligente', 'Guia de Medidas VIP'],
-demoUrl: './Moda_Feminina/fashion-demo.html?niche=fashion'
+demoUrl: './Projetos/Moda_Feminina/index.html?niche=fashion'
 },
 
 lp: {
@@ -12,7 +12,7 @@ category: 'Landing Page',
 title: 'Conversão Direta',
 desc: 'Página estratégica focada em geração de leads.',
 features: ['CTA Estratégico', 'Copy Persuasiva', 'SEO'],
-demoUrl: './Landing_Page/landingPage-demo.html?niche=lp'
+demoUrl: './Projetos/Landing_Page/index.html?niche=lp'
 },
 
 restaurant: {
@@ -20,7 +20,7 @@ category: 'Gastronomia',
 title: 'D ALBA TRATTORIA',
 desc: 'Cardápio digital e reservas online.',
 features: ['Cardápio Interativo', 'Reservas', 'Delivery'],
-demoUrl: './Restaurante/restaurant-demo.html?niche=restaurant'
+demoUrl: './Projetos/Restaurante/index.html?niche=restaurant'
 },
 
 corporate: {
@@ -28,7 +28,7 @@ category: 'Empresarial',
 title: 'Empresa Moderna',
 desc: 'Site institucional profissional.',
 features: ['Autoridade', 'SEO', 'Performance'],
-demoUrl: './Corporate/corporate-demo.html?niche=corporate'
+demoUrl: '.Projetos/Corporate/index.html?niche=corporate'
 },
 
 professional: {
@@ -36,7 +36,7 @@ category: 'Profissional',
 title: 'Especialista',
 desc: 'Posicionamento pessoal e autoridade.',
 features: ['Branding', 'Contato Direto', 'Credibilidade'],
-demoUrl: './Profissional/profissional-demo.html?niche=professional'
+demoUrl: './Projetos/Profissional/index.html?niche=professional'
 }
 };
 
